@@ -45,6 +45,7 @@ public enum EvaluationType {
 
 
 
+
     public static EvaluationType fromString(String s) {
         return EvaluationType.valueOf(s.trim().toUpperCase());
     }
