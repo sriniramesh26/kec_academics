@@ -40,6 +40,12 @@ public enum EvaluationType {
         return overallPassMark;
     }
 
+
+
+
+
+
+
     public static EvaluationType fromString(String s) {
         return EvaluationType.valueOf(s.trim().toUpperCase());
     }
